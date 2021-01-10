@@ -2,8 +2,8 @@ on run argv
         tell application "System Events"
 
                 tell appearance preferences
-                        set dark mode to true 
-                        set highlight color to red
+                        set dark mode to false
+                        set highlight color to green
                 end tell
 
                 tell current desktop

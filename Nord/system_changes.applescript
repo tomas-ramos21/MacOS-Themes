@@ -2,7 +2,7 @@ on run argv
         tell application "System Events"
 
                 tell appearance preferences
-                        set dark mode to dark mode
+                        set dark mode to true
                         set highlight color to blue
                 end tell
 

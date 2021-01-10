@@ -1,7 +1,7 @@
 #!/bin/bash
 cd "${0%/*}"
 
-THEMES=("FreeBSD" "Nord")
+THEMES=("FreeBSD" "Nord" "Blossom")
 UBERSICHT="/Users/tomasramos/.config/ubersicht/spaces.coffee"
 ALACRITTY="/Users/tomasramos/.config/alacritty/alacritty.yml"
 SHELLRC="/Users/tomasramos/.zshrc"
