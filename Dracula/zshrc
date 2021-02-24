@@ -1,4 +1,4 @@
-export PS1="%F{green}[~]%f "
+export PS1="%F{green}λ%f "
 export CLICOLOR=1
 export PAGER=most
 alias ls="ls -F"

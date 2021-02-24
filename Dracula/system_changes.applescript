@@ -8,7 +8,7 @@ on run argv
 
                 tell current desktop
                         set p to item 1 of argv
-                        set img to p & ".png"
+                        set img to p & ".jpg"
                         set picture to img
                 end tell
         end tell
