@@ -7,6 +7,7 @@ Collection of MacOS Themes.
 2. **Hotkey Daemon:** [Skhd](https://github.com/koekeishiya/skhd)
 3. **Bar:** [Ubersicht](https://tracesof.net/uebersicht/)
 4. **Terminal:** [Alacritty](https://github.com/alacritty/alacritty)
+5. **Bar Information:** [Ubersicht Scripts](https://github.com/tomas-ramos21/Ubersicht-Scripts)
 
 ## Functionalities
 
