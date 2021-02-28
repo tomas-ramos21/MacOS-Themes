@@ -1,7 +1,7 @@
 #!/bin/bash
 cd "${0%/*}"
 
-THEMES=("FreeBSD" "Nord" "Blossom", "Dracula", "Monokai")
+THEMES=("FreeBSD" "Nord" "Blossom", "Dracula", "Monokai", "Doom")
 UBERSICHT="/Users/tomasramos/.config/ubersicht/spaces.coffee"
 ALACRITTY="/Users/tomasramos/.config/alacritty/alacritty.yml"
 YABAI="/Users/tomasramos/.config/yabai/yabairc"
