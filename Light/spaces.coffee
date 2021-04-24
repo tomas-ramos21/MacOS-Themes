@@ -8,7 +8,7 @@ render: (output) ->
         index = parseInt( data[4], 10 ) - 1
         spaces[index] = "[#{spaces[index]}]"
         rep = "<span class=\"desktop#{index + 1}Div\">"
-        sub = "<span class=\"desktop#{index + 1}Div\" style=\"color: rgba(20,125,245,1)\">"
+        sub = "<span class=\"desktop#{index + 1}Div\" style=\"color: rgba(0,122,255,1)\">"
         """
         <div>
           <p class="\firstline"\>
@@ -230,7 +230,7 @@ style: """
 
   color: black
   position: absolute
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   display: flex;
   align-items: center;
   justify-content: left;
