@@ -68,36 +68,36 @@ font:
 colors:
   # Default colors
   primary:
-    background: '0x282c34'
-    foreground: '0xbbc2cf'
+    background: '0xfbfbfb'
+    foreground: '0x494b52'
 
   # Normal colors
   normal:
-    black:   '0x282c34'
-    red:     '0xff6c6b'
-    green:   '0x98be65'
-    yellow:  '0xecbe7b'
-    blue:    '0x51afef'
-    magenta: '0xc678dd'
-    cyan:    '0x46d9ff'
-    white:   '0xbbc2cf'
+    black:   '0x848489'
+    red:     '0xcd2d27'
+    green:   '0x74a96c'
+    yellow:  '0x946142'
+    blue:    '0x4498bc'
+    magenta: '0xa852ac'
+    cyan:    '0x6194eb'
+    white:   '0xffffff'
 
   # Bright colors
   bright:
-    black:   '0x282c34'
-    red:     '0xff6c6b'
-    green:   '0x98be65'
-    yellow:  '0xecbe7b'
-    blue:    '0x51afef'
-    magenta: '0xc678dd'
-    cyan:    '0x46d9ff'
-    white:   '0xbbc2cf'
+    black:   '0x848489'
+    red:     '0xf53026'
+    green:   '0x1ec337'
+    yellow:  '0xf5c400'
+    blue:    '0x0070f5'
+    magenta: '0xf5234a'
+    cyan:    '0x50bdf0'
+    white:   '0xffffff'
 
 # Background opacity
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.92
+background_opacity: 1.00
 
 selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
