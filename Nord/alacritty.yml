@@ -28,7 +28,7 @@ scrolling:
 font:
 
   normal:
-    family: SF Mono
+    family: IBM Plex Mono
     style: Regular
 
   # Bold font face
