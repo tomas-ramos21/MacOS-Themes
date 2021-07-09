@@ -8,7 +8,7 @@ render: (output) ->
         index = parseInt( data[4], 10 ) - 1
         spaces[index] = "[#{spaces[index]}]"
         rep = "<span class=\"desktop#{index + 1}Div\">"
-        sub = "<span class=\"desktop#{index + 1}Div\" style=\"color: rgba(0,122,255,1)\">"
+        sub = "<span class=\"desktop#{index + 1}Div\" style=\"color: rgba(225,90,45,1)\">"
         """
         <div>
           <p class="\firstline"\>
@@ -76,7 +76,7 @@ render: (output) ->
 style: """
   
   .break2 {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 18px;
     position: absolute;
@@ -85,7 +85,7 @@ style: """
   }
   
   .break1 {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 18px;
     position: absolute;
@@ -94,7 +94,7 @@ style: """
   }
   
   .calendarIcon {
-    color: rgba(75,75,75,1);
+    color: rgba(230,73,73,1);
     font-family: FontAwesome5Free-Regular;
     font-size:16px;
     position: absolute;
@@ -103,7 +103,7 @@ style: """
   }
   
   .date {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size:15px;
     position: absolute;
@@ -112,7 +112,7 @@ style: """
   }
   
   .timeIcon {
-    color: rgba(75,75,75,1);
+    color: rgba(151,190,101,1);
     font-family: FontAwesome5Free-Regular;
     font-size:16px;
     position: absolute;
@@ -121,7 +121,7 @@ style: """
   }
 
   .time {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size:15px;
     position: absolute;
@@ -130,7 +130,7 @@ style: """
   }
 
   .batteryIcon {
-    color: rgba(75,75,75,1);
+    color: rgba(236,190,123,1);
     font-family: FontAwesome5Free-Solid;
     font-size:16px;
     position: absolute;
@@ -139,7 +139,7 @@ style: """
   }
   
   .batteryPercent {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size:15px;
     position: absolute;
@@ -152,77 +152,77 @@ style: """
   }
 
   .appleDiv {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Medium;
     font-size: 20px;
     padding-left: 12px;
   }
   
   .breaksDiv {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 18px;
     padding-left: 5px;
   }
   
   .desktop1Div {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 15px;
     padding-left: 8px;
   }
   
   .desktop2Div {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 15px;
     padding-left: 12px;
   }
   
   .desktop3Div {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 15px;
     padding-left: 12px;
   }
   
   .desktop4Div {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 15px;
     padding-left: 12px;
   }
   
   .desktop5Div {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 15px;
     padding-left: 12px;
   }
   
   .desktop6Div {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 15px;
     padding-left: 12px;
   }
   
   .desktop7Div {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 15px;
     padding-left: 12px;
   }
 
   .desktopDiv {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 15px;
     padding-left: 12px;
   }
 
   .solidDiv {
-    color: rgba(75,75,75,1);
+    color: rgba(188,194,206,1);
     font-family: SFCompact-Regular;
     font-size: 15px;
     padding-left: 5px;
@@ -230,7 +230,7 @@ style: """
 
   color: black
   position: absolute
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(43, 41, 42, 1);
   display: flex;
   align-items: center;
   justify-content: left;
@@ -240,6 +240,5 @@ style: """
   height: 30px;
   z-index: -1;
   border-radius: 20px;
-  -webkit-backdrop-filter: blur(10px)
 """
 
